@@ -38,3 +38,8 @@ jobs:
       run: |
         export PYTHONPATH=src
         pytest
+    - name: Generate descriptive changes
+      run: |
+        pip install PyGithub
+        python generate_descriptive_changes.py
+      
