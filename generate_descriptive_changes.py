@@ -2,7 +2,7 @@ import os
 from github import Github
 
 #set up your desired variables  or environment
-repo_name = os.environ.get('REPO_NAME')
+repo_name = "agore25/python-githubactions"
 github_token = os.environ.get('GITHUB_TOKEN')
 
 g=Github(github_token)
