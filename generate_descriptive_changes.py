@@ -13,3 +13,5 @@ for commits in repo.get_commits():
     release_notes += commits.commit.message + "\n"
 
 print(release_notes)
+
+
